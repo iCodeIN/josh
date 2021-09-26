@@ -5,7 +5,7 @@ JOSH is a simple RPC protocol and
 following features:
 
 - **Simple**: Methods are invoked by POSTing JSON to a URL.
-  [HTTPie](https://httpie.io/) (or [Curl](https://curl.se/) is all you need.
+  [HTTPie](https://httpie.io/) (or [Curl](https://curl.se/)) is all you need.
 - **Polyglot**: Schema is constrained to satisfy a reasonable intersection
   of popular programming languages.
 - **Codegen-ready**: The interface definition language includes inflection
