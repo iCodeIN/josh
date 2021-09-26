@@ -1,6 +1,8 @@
 # **JOSH** - JSON Over Simple HTTP
 
-JOSH is a simple RPC protocol with the following features:
+JOSH is a simple RPC protocol and
+[IDL](https://en.wikipedia.org/wiki/Interface_description_language) with the
+following features:
 
 - **Simple**: Methods are invoked by POSTing JSON to a URL.
   [HTTPie](https://httpie.io/) (or [Curl](https://curl.se/) is all you need.
