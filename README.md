@@ -1,13 +1,22 @@
 # **JOSH** - JSON Over Simple HTTP
 
-JOSH is a simple RPC protocol embedded in HTTP.
+JOSH is a simple RPC protocol with the following features:
+
+- **Simple**: Methods are invoked by POSTing JSON to a URL.
+  [HTTPie](https://httpie.io/) (or [Curl](https://curl.se/) is all you need.
+- **Polyglot**: Schema is constrained to satisfy a reasonable intersection
+  of popular programming languages.
+- **Codegen-ready**: The interface definition language includes inflection
+  hints, so that appropriate identifiers can be generated with any casing style.
+- **Reflective**: Interfaces and methods can be introspected via HTTP GET,
+  which returns type information suitable for both humans and machines.
+- **Interoperable**: Easily bridges to JSON-RPC or other JSON-based protocols.
+- **Minimal**: The entire system should fit in your head. Clients, servers, and
+  code generators should be easy to implement for any toolchain.
 
 **Status:** Extremely Unstable.
 
-Main idea: An object-oriented, language-agnostic RPC framework that speaks JSON
-and is intuitive and friendly to use from [HTTPie](https://httpie.io/),
-[Curl](https://curl.se/), etc.
-
+EVERYTHING BELOW HERE IS UP IN THE AIR
 
 # Interface Definition Language (IDL)
 
