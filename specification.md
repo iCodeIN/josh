@@ -6,6 +6,10 @@ The work-in-progress JSON-schema for the IDL can be found here:
 
 [https://github.com/deref/josh-js/blob/main/packages/types/src/module.schema.json](https://github.com/deref/josh-js/blob/main/packages/types/src/module.schema.json)
 
+Though the source code may be easier to read:
+
+[https://github.com/deref/josh-js/blob/main/packages/types/src/index.ts](https://github.com/deref/josh-js/blob/main/packages/types/src/index.ts)
+
 # Interface Definition Language (IDL)
 
 JOSH IDL files are encoded as JSON5 and are specified by a JSON schema (TBD).
