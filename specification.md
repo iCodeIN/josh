@@ -2,13 +2,8 @@
 
 **THIS IS A VERY EARLY DRAFT / NOTES**
 
-The work-in-progress JSON-schema for the IDL can be found here:
-
-[https://github.com/deref/josh-js/blob/main/packages/types/src/module.schema.json](https://github.com/deref/josh-js/blob/main/packages/types/src/module.schema.json)
-
-Though the source code may be easier to read:
-
-[https://github.com/deref/josh-js/blob/main/packages/types/src/index.ts](https://github.com/deref/josh-js/blob/main/packages/types/src/index.ts)
+There is a [work-in-progress JSON-schema for the IDL and introspection](https://github.com/deref/josh-js/tree/main/schemas),
+but the [source code for those](https://github.com/deref/josh-js/blob/main/src/gen-schemas.ts) may be easier to read.
 
 # Interface Definition Language (IDL)
 
