@@ -3,7 +3,7 @@
 **THIS IS A VERY EARLY DRAFT / NOTES**
 
 There is a [work-in-progress JSON-schema for the IDL and introspection](https://github.com/deref/josh-js/tree/main/schemas),
-but the [source code for those](https://github.com/deref/josh-js/blob/main/src/gen-schemas.ts) may be easier to read.
+but the [source code for those](https://github.com/deref/josh-js/blob/main/src/types.ts) may be easier to read.
 
 # Interface Definition Language (IDL)
 
